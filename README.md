@@ -1,73 +1,29 @@
-# Job Listing Application
+💼 A2SV Integrating-API-Data-into-the-Application – Task 7
+This is a simple job opportunity website That displays a list of job opportunities, and users can view detailed information about each job. The project uses Redux Toolkit for efficient state management and data fetching.
 
-This is a modern, responsive **Job Listing Dashboard** built with **Next.js**, **React**, **Tailwind CSS**, and **TypeScript**. The goal is to replicate a detailed job listing and description interface based on a Figma UI design. It features dynamic job data fetched directly from a remote API, clean navigation, and design precision.
+🚀 Features
+🔍 View all job opportunities
 
----
-
-## What We Implemented
-
-* **Job Cards UI:** Reusable `JobCard` components styled to match the design exactly.  
-* **Job Detail Page:** Built with proper layout, icons, fonts, and spacing following the reference.  
-* **Ideal Candidate Block:** Correct layout and styling for candidate traits, age, and gender.  
-* **Mobile Responsive:** Fully responsive layout optimised for different screen sizes.  
-* **API Data Integration:** Job listings and details are dynamically fetched from the remote API endpoint (`https://akil-backend.onrender.com/opportunities/search`) using the native JavaScript `fetch` API.  
-* **Dynamic Routing:** Implemented dynamic routes for detailed job pages based on job IDs fetched via `fetch`.  
+📄 View job details by ID
 
 
----
+🖼️ Screenshots
+🏠 Landing Page
+![Landing Page](Screenshoots/image3.png)
+![Landing Page](Screenshoots/image2.png)
 
-## Screenshots
+📋 Job Details Page
+![Details Page](Screenshoots/image1.png)
 
-### 📌 Job Listing View
 
-![Job List](./public/job-list.png)
 
----
+⚙️ Technologies Used
+Next.js – React-based framework for server-side rendering and routing
 
-### 📌 Job Description View
+Tailwind CSS –  CSS framework for styling
 
-![Job Description](./public/job-description.png)
+Redux Toolkit – Simplified Redux state management and API integration
 
----
-
-## 🛠️ Tech Stack
-
-* ⚛️ **Next.js** (React Framework)  
-* 🎨 **Tailwind CSS** (Utility-first CSS)  
-* 🔠 **TypeScript** (Typed JavaScript)  
-* 🧩 **Radix UI** (Accessible UI components)  
-* 📡 **API Integration** (Remote job listings API via `fetch`)
-
----
-
-## 🚀 How to Run This Project
-
-1. **Clone the Repository**
-
-```bash
-git clone https://github.com/Fenet-damena/job-listing-application.git
-cd job-listing-application
-````
-
-2. **Install Dependencies**
-
-```bash
-npm install
-```
-
-3. **Start the Dev Server**
-
-```bash
-npm run dev
-```
-
-4. **Open in Your Browser**
-
-[http://localhost:3000](http://localhost:3000)
-
----
-
-## 👩‍💻 Author
-
-**Fenet Damena**
+📂 Functionalities Overview
+Fetch all job listings
 
